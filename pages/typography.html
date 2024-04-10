@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/typography.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Typography</title>
+</head>
+
+<body>
+  <div class="sidenav button-effect">
+    <div class="link-container">
+      <a class="effect effect-4" href="home.html">Home</a>
+      <a class="effect effect-4" href="colour.html">Color Palette</a>
+      <a class="effect effect-4" href="typography.html">Typography</a>
+      <a class="effect effect-4" href="visuals.html">Visuals</a>
+      <a class="effect effect-4" href="references.html">References</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <h1 class="header">Typography</h1>
+  </div>
+
+  <div class="typography-container">
+    <div class="description">
+    <p>Our app's typography is built on two primary typefaces: <span class="montserrat">Montserrat</span> and <span class="noto">Noto Sans</span>. <br/>
+      Montserrat is used for headings to capture attention with its geometric elegance and modern flair, while Noto Sans is employed for body text, ensuring readability and comfort for extended reading. This combination provides a balanced visual hierarchy, enhancing the user experience through clear and consistent typography.</p>
+    </div>
+    <div class="two-blocks">
+    <div class="container">
+        <h2 class="font-header">Montserrat</h2>
+      <div class="container-text">
+        <div className="reasoning"><h2>Reasoning</h2></div>
+        <hr/>
+        <p> Montserrat offers a geometric, clean aesthetic that's great for headings and stand-out text, giving the app a modern and uncluttered look.</p>
+      </div>
+      <div class="example-content">
+        <div class="sample-text">
+          <h2>Text Examples</h2>
+          <hr/>
+          <div class="header-text">
+            <ul>
+              <li>
+                <h1 style="font-size: 34pt; font-weight: bold">Large Titles(34pt)</h1>
+              <p style="font-size: 18px;font-weight:400">Use for main page titles or important headers to grab attention.
+              </p>
+            </li>
+              <li>
+                <h2 style="font-size: 28pt; font-weight: bold" >Section Headers(28pt)</h2>
+              <p style="font-size: 18px;font-weight:400">Use for section titles within a page to clearly differentiate parts of your app's content.</p>
+            </li>
+              <li><h3 style="font-size: 24pt; font-weight: bold">Sub-Headers(24pt)</h3>
+                <p style="font-size: 18px;font-weight:400">Suitable for sub-section titles or important information that needs to stand out just below the section headers.</p>
+              </li>
+              <li><h4 style="font-size: 16pt; font-weight: semi-bold">Main Button Text(16pt)</h3>
+                <p style="font-size: 18px;font-weight:400">Suitable for sub-section titles or important information that needs to stand out just below the section headers.</p>
+              </li>
+            </ul>   
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <h2 class="font-header2">Noto Sans</h2>
+      <div class="container-text">
+        <div className="reasoning"><h2>Reasoning</h2>
+        <hr/></div>
+        <p>Noto Sans is versatile for body text, ensuring readability and accessibility,  with its aim of supporting all languages with a harmonious look and feel.</p>
+      </div>
+      <div class="example-content">
+        <div class="sample-text">
+          <h2 className="heading">Text Examples</h2>
+          <hr/>
+          <div class="header-text">
+            <ul>
+              <li>
+                <h1 style="font-size: 16pt; font-weight: 400">Main Body Text(16pt)</h1>
+              <p style="font-size: 18px;font-weight:400">Ensuring readability for most users by using the standard size for body text.</p>
+            </li>
+              <li>
+                <h2 style="font-size: 14pt; font-weight: 400;" >Secondary Text(14pt)</h2>
+              <p style="font-size: 18px;font-weight:400">Use for less important information, captions, or as a secondary level of information hierarchy.</p>
+            </li>
+              <li><h3 style="font-size: 12pt; font-weight: 400">Tertiary or Hint Text(12pt)</h3>
+                <p style="font-size: 18px;font-weight:400">Use for form field labels, hints, or any tertiary information that is not a primary focus.</p>
+              </li>
+              <li><h4 style="font-size: 16pt; font-weight: semi-bold">Secondary Button Text(16pt)</h3>
+                <p style="font-size: 18px;font-weight:400">Use for sub-section titles or important information that needs to stand out just below the section headers.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="component-examples">
+    <div className="heading"><h2>Examples</h2><hr/></div>
+    <div className="example-box">
+      <img src='/img/examples.png' alt="Usage Examples" class="examples"/>
+    </div>
+  </div>
+
+
+
+
+  <p class="rubrik">
+    Format text in all the headers (h1- h6), paragraphs, links (normal and rollover), text appearing in <br/>
+    navigation menus, sidebars, quotations, forms, lists, tables, etc. <br/>
+    ● Choose a maximum of two different font families with multiple styles from Google Fonts or other <br/>
+    applicable sources, ensuring they offer multiple styles (regular, bold, italic, etc.). <br/>
+    ○ Ensure these two fonts support multiple languages. The more, the merrier <br/>
+    ○ Create samples for each relevant text element, showcasing how the chosen fonts will <br/>
+    appear in different contexts such as H1-H6, paragraphs, links, etc. <br/>
+    ○ Provide details on font sizes and styles used for each text element. Specify font weights, <br/>
+    styles, and sizes in pixels or ems. <br/>
+    ● Include a brief explanation for your font selection, highlighting why you chose these particular <br/>
+    fonts, what you appreciate about their style, and how they align with the overall design theme <br/>
+    and branding of your web application. <br/>
+    Notes: Please note that the font selected for your logo will not be considered as part of the two font <br/>
+    families permitted for use in this assignment <br/>
+  </p>
+
+  <footer></footer>
+  <script src="https://kit.fontawesome.com/d1051c85c7.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
