@@ -7,6 +7,11 @@
     font-family: "Montserrat", sans-serif;
   }
 
+  a{
+    color: #53239B;
+
+  }
+
   a:link, a:visited{
     text-decoration: none;
   }

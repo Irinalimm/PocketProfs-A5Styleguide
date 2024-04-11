@@ -7,8 +7,20 @@
     font-family: "Montserrat", sans-serif;
   }
 
+  a{
+    color: black;
+  }
+
   a:link, a:visited{
-    text-decoration: none;
+    text-decoration: underline;
+  }
+  
+  li{
+    margin: 2rem;
+  }
+
+  h1{
+    border-left: 10px solid #eb6A00;
   }
 
   /* Style the side navigation */
