@@ -138,7 +138,10 @@ header {
   padding-bottom: 10px;
   width: 50em;
 }
-
+.reason-bold{
+  font-weight: bold;
+  font-size: 20px;
+}
 #custom-carousel {
   height: 50%;
   width: 50%;

@@ -13,11 +13,8 @@ body {
   background-color: #fffff0;
 }
 
-h2,
-h3{
-  border-left: 5px solid #f9df74;
-  margin: 0, 1.5rem;
-}
+
+
 /* Style the side navigation */
 .sidenav {
   height: 100%;
