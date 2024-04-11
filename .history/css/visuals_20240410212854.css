@@ -15,20 +15,38 @@
 
   .grid-item{
     width: 50%;
+    width:fit-content;
   }
 
   .flex-container{
-    width: fit-content;
-    margin: 2rem;
+    width:fit-content;
   }
 
 img {
   width:200px;
 }
+.description{
+
+}
+.icon-home{
+
+}
+
+.icon-goal{
+
+}
+
+.icon-profile{
+  
+}
+
+.icon-quiz{
+
+}
 
 .container{
     display: flex;
-    align-self:flex-start;
+    align-self: center;
     flex-direction: column;
     width: fit-content;
 }
@@ -36,18 +54,9 @@ img {
 .outer-container{
   display: flex;
   flex-direction: row;
-  width:fit-content;
 }
 
-.buttons,
-.carousels{
-  width: 500px;
-}
 
-.dialogue,
-.card{
-  width: 300px;
-}
 
   /* Style the side navigation */
   .sidenav {
