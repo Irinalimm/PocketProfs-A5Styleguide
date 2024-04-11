@@ -7,7 +7,7 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   animation: 1s ease-out 0s 1 slideInFromLeft;
-  
+  background-color: #fff5ee;
 }
 
 .header {
@@ -175,6 +175,43 @@ body {
 .color-description{
   display: flex;
   flex-direction: row;
+}
+
+
+.circle-content {
+  position: relative; 
+  z-index: 1; 
+  padding: 20px;
+}
+
+.background-circles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -999; 
+  left:100px;
+  bottom:300px
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-1 {
+  background-color: #8CACF4;
+  width: 500px;
+  height: 250px;
+  margin-top: 200px;
+  margin-left: -65px;
+}
+
+.circle-2 {
+  background-color: #CCE3FB;
+  width: 340px;
+  height: 250px;
+  margin-top: 220px;
+  margin-left: -100px;
 }
 
 
