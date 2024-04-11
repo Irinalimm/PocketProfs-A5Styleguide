@@ -7,6 +7,11 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   animation: 1s ease-out 0s 1 slideInFromLeft;
+  background-color: #fff5ee;
+}
+
+p{
+  font-size: 16px;
 }
 
 h3{
@@ -38,6 +43,7 @@ h3{
 .rationale-container{
   margin-left: 200px;
   padding-left: 20px;
+  text-align: center;
 }
 
 /* Side navigation links */
@@ -130,6 +136,41 @@ header {
 #custom-carousel {
   height: 50%;
   width: 50%;
+}
+
+.circle-content {
+  position: relative; 
+  z-index: 1; 
+  padding: 20px;
+}
+
+.background-circles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -999; 
+  left:100px;
+  bottom:300px
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-1 {
+  background-color: #8CACF4;
+  width: 500px;
+  height: 250px;
+  margin-top: -60px;
+}
+
+.circle-2 {
+  background-color: #CCE3FB;
+  width: 330px;
+  height: 250px;
+  margin-top: -20px;
+  margin-left: -100px;
 }
 
 .effect {

@@ -63,6 +63,7 @@ p{
   transform: translateY(300px);
   animation: slideUp .8s ease-in-out forwards .8s;
   color:black;
+  font-weight: bold;
 }
 
 .btns {
@@ -86,6 +87,12 @@ p{
   transform: translateY(50px);
   animation: slideUp .8s ease-in-out  forwards 1s;
   text-decoration: none;
+  width: 150px;
+}
+
+.btns_more:hover {
+  background-color: #CCE3FB;
+  font-weight: bold;
 }
 
 .title {
@@ -105,6 +112,10 @@ h1 {
   width: 400px;
   position: relative;
   margin-left:100px;
+}
+
+.header_app_name {
+  font-size: 500px;
 }
 
 @keyframes slideIn {
