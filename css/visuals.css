@@ -5,7 +5,7 @@
   body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    background-color: #fff5ee;
+    background-color: #fffff0;
   }
 
   .navbar{
@@ -146,7 +146,8 @@ img {
     height: 100%;
     z-index: -999; 
     left:100px;
-    bottom:300px
+    bottom:300px;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
   }
   
   .circle {
@@ -158,13 +159,13 @@ img {
     background-color: #8CACF4;
     width: 500px;
     height: 250px;
-    margin-top: 200px;
+    margin-top: 180px;
     margin-left: -65px;
   }
   
   .circle-2 {
     background-color: #CCE3FB;
-    width: 350px;
+    width: 370px;
     height: 250px;
     margin-top: 200px;
     margin-left: -100px;
