@@ -7,16 +7,6 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   animation: 1s ease-out 0s 1 slideInFromLeft;
-  background-color: #fffff0;
-}
-
-p{
-  font-size: 16px;
-}
-
-h3{
-  border-left: 5px solid #f9df74;
-  margin: 0, 1.5rem;
 }
 
 /* Style the side navigation */
@@ -43,13 +33,6 @@ h3{
 .rationale-container{
   margin-left: 200px;
   padding-left: 20px;
-  text-align: center;
-  font-size: 20px;
-  margin-bottom: 100px;
-}
-
-.rationale{
-  font-size: 25px;
 }
 
 /* Side navigation links */
@@ -144,41 +127,6 @@ header {
   width: 50%;
 }
 
-.circle-content {
-  position: relative; 
-  z-index: 1; 
-  padding: 20px;
-}
-
-.background-circles {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -999; 
-  left:100px;
-  bottom:300px
-}
-
-.circle {
-  position: absolute;
-  border-radius: 50%;
-}
-
-.circle-1 {
-  background-color: #8CACF4;
-  width: 500px;
-  height: 250px;
-  margin-top: -215px;
-}
-
-.circle-2 {
-  background-color: #CCE3FB;
-  width: 330px;
-  height: 250px;
-  margin-top: -180px;
-  margin-left: -100px;
-}
-
 .effect {
   text-align: center;
   display: inline-block;
@@ -186,7 +134,9 @@ header {
   text-decoration: none;
   color: orange;
   text-transform: capitalize;
+  /* background-color: - add your own background-color */
   font-family: 'Montserrat', sans-serif;
+  /* put your font-family */
   font-size: 18px;
   padding: 20px 0px;
   width: 150px;
