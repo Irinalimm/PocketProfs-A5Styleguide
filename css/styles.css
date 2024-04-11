@@ -21,12 +21,18 @@ body {
   overflow-x: hidden;
   animation: 1s ease-out 0s 1 slideInFromLeft;
 }
+
 .header {
   margin-left: 200px;
   padding-left: 20px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  padding-top:10px;
+  padding-top: 10px;
+}
+
+.rationale-container{
+  margin-left: 200px;
+  padding-left: 20px;
 }
 
 /* Side navigation links */
@@ -41,7 +47,7 @@ body {
 
 /* Change color on hover */
 .sidenav a:hover {
-  background-color: rgb(180,158,244);
+  background-color: rgb(180, 158, 244);
   color: black;
 }
 
@@ -51,8 +57,31 @@ body {
   width: 200px;
   display: flex;
   flex-direction: column;
-  height: 200px;
-  margin: 100px;
+  height: 300px;
+  margin: 3em;
+}
+
+.photo-container-favicon {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  margin: 3em;
+}
+
+.favicon-16 {
+  height: 128px;
+  width: 128px;
+}
+
+.favicon-32 {
+  height: 256px;
+  width: 256px;
+}
+
+.favicon-48 {
+  height: 384px;
+  width: 384px;
 }
 
 header {
@@ -68,24 +97,34 @@ header {
 }
 
 .container {
-  display: flex;
-  flex-direction:column;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr 3fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
   position: relative;
   padding-left: 20px;
   margin-left: 250px;
   width: 100%;
+  height: 100%;
 }
 
-#carouselExampleControls{
+.text-container {
+  margin: 30px;
+}
+
+#carouselExampleControls {
   margin-left: 425px;
   padding-left: 20px;
   padding-bottom: 10px;
   width: 50em;
 }
 
-#custom-carousel{
+#custom-carousel {
   height: 50%;
-  width:50%;
+  width: 50%;
 }
 
 .effect {
@@ -96,7 +135,8 @@ header {
   color: orange;
   text-transform: capitalize;
   /* background-color: - add your own background-color */
-  font-family: 'Montserrat', sans-serif; /* put your font-family */
+  font-family: 'Montserrat', sans-serif;
+  /* put your font-family */
   font-size: 18px;
   padding: 20px 0px;
   width: 150px;
@@ -106,7 +146,7 @@ header {
 
 .effect.effect-4 {
   transition: all 0.5s linear 0s;
-  animation: fadeIn 2s ;
+  animation: fadeIn 2s;
 }
 
 .effect.effect-4:before {
@@ -122,7 +162,7 @@ header {
   height: 100%;
   text-align: center;
   font-size: 30px;
-  transform: scale(0,3);
+  transform: scale(0, 3);
   transition: all 0.1s linear 0s;
 }
 
@@ -131,32 +171,56 @@ header {
 }
 
 .effect.effect-4:hover:before {
-  transform: scale(1,1);
+  transform: scale(1, 1);
   text-indent: 0;
 }
 
-.link-container{
+.link-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.photo-container{
-  width: 100px;
+img {
+  width: 100%;
+  height: 100%;
 }
 
-.content-container{
+.photo-container {
+  width: 200px;
+  height: 200px;
+}
+
+.photo-container-horizontal {
+  width: 500px;
+  height: 200px
+}
+.photo-container-horizontal {
+  width: 500px;
+  height: 200px
+}
+
+.content-container {
   width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
+}
 
+.other-mascot-container{
+  position: absolute;
+  margin-left: 90em;
+}
+
+.logo-header{
+  width:500px;
 }
 
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -166,6 +230,7 @@ header {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
