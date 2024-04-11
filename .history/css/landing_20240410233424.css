@@ -113,14 +113,13 @@ h1 {
     animation: slideUp .8s ease forwards .5s;
 }
 
-.img-inner{
+.container_img{
   width: fit-content;
   position: relative;
   margin-left:100px;
+
 }
-.container_imag{
-  width: 700px;
-}
+
 .header_app_name {
   font-size: 500px;
 }

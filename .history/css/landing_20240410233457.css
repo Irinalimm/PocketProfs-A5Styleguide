@@ -114,13 +114,12 @@ h1 {
 }
 
 .img-inner{
-  width: fit-content;
+  width: 700px;
   position: relative;
   margin-left:100px;
+  
 }
-.container_imag{
-  width: 700px;
-}
+
 .header_app_name {
   font-size: 500px;
 }

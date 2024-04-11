@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fffff0;
+  }
+
+  .navbar{
+    grid-column: 1 / 3;
+    grid-row: 1;
+    width:400px;
+  }
+
+  .grid-item{
+    width: 30%;
+  }
+
+  .flex-container{
+    width: fit-content;
+    margin: 2rem;
+  }
+
+img {
+  width:200px;
+}
+
+h3{
+  border-left: 5px solid #f9df74;
+  margin: 0, 1.5rem;
+}
+.container{
+    display: flex;
+    align-self:flex-start;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.outer-container{
+  display: flex;
+  flex-direction: row;
+  width:fit-content;
+}
+
+.buttons,
+.carousels{
+  width: 500px;
+}
+
+.dialogue,
+.card{
+  width: 300px;
+}
+
+  /* Style the side navigation */
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(142,113,213);
+    overflow-x: hidden;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+  
+  
+  /* Side navigation links */
+  .sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    margin-left: 20px;
+  }
+  
+  /* Change color on hover */
+  .sidenav a:hover {
+    background-color: rgb(180,158,244);
+    color: black;
+  }
+  
+  /* Style the content */
+  .content {
+    margin-left: 200px;
+    padding-left: 20px;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+  
+  .effect {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: orange;
+    text-transform: capitalize;
+    /* background-color: - add your own background-color */
+    font-family: 'Montserrat', sans-serif; /* put your font-family */
+    font-size: 18px;
+    padding: 20px 0px;
+    width: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .effect.effect-4 {
+    transition: all 0.5s linear 0s;
+    animation: fadeIn 2s ;
+  }
+  
+  .effect.effect-4:before {
+    content: "\f178";
+    font-family: FontAwesome;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    transform: scale(0,3);
+    transition: all 0.1s linear 0s;
+  }
+  
+  .effect.effect-4:hover {
+    text-indent: -9999px;
+  }
+  
+  .effect.effect-4:hover:before {
+    transform: scale(1,1);
+    text-indent: 0;
+  }
+
+
+  .circle-content {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+  }
+  
+  .background-circles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -999; 
+    left:100px;
+    bottom:300px;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+  
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .circle-1 {
+    background-color: #8CACF4;
+    width: 500px;
+    height: 250px;
+    margin-top: 180px;
+    margin-left: -65px;
+  }
+  
+  .circle-2 {
+    background-color: #CCE3FB;
+    width: 370px;
+    height: 250px;
+    margin-top: 200px;
+    margin-left: -100px;
+  }
+  
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
