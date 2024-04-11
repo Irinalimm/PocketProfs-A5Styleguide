@@ -6,48 +6,19 @@
     margin: 0;
     font-family: "Montserrat", sans-serif;
   }
-
-  .navbar{
-    grid-column: 1 / 3;
-    grid-row: 1;
-    width:400px;
+  a{
+    color: black;
   }
 
-  .grid-item{
-    width: 50%;
+  a:link, a:visited{
+    text-decoration: underline;
   }
-
-  .flex-container{
-    width: fit-content;
+  
+  li{
     margin: 2rem;
   }
 
-img {
-  width:200px;
-}
 
-.container{
-    display: flex;
-    align-self:flex-start;
-    flex-direction: column;
-    width: fit-content;
-}
-
-.outer-container{
-  display: flex;
-  flex-direction: row;
-  width:fit-content;
-}
-
-.buttons,
-.carousels{
-  width: 500px;
-}
-
-.dialogue,
-.card{
-  width: 300px;
-}
 
   /* Style the side navigation */
   .sidenav {
