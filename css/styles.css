@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
+
 }
 
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 /* Style the side navigation */
@@ -19,7 +21,13 @@ body {
   overflow-x: hidden;
   animation: 1s ease-out 0s 1 slideInFromLeft;
 }
-
+.header {
+  margin-left: 200px;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding-top:10px;
+}
 
 /* Side navigation links */
 .sidenav a {
@@ -40,8 +48,11 @@ body {
 
 /* Style the content */
 .content {
-  margin-left: 200px;
-  padding-left: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 100px;
 }
 
 header {
@@ -57,17 +68,12 @@ header {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 4fr 2fr;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  justify-items: stretch;
-  align-items: stretch;
-  justify-content: center;
+  display: flex;
+  flex-direction:column;
   position: relative;
   padding-left: 20px;
-  margin-left: 100px;
+  margin-left: 250px;
+  width: 100%;
 }
 
 #carouselExampleControls{
@@ -135,6 +141,17 @@ header {
   flex-direction: column;
 }
 
+.photo-container{
+  width: 100px;
+}
+
+.content-container{
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+}
 
 @keyframes slideInFromLeft {
   0% {

@@ -5,8 +5,9 @@
 }
 
 :root {
-  --secondary-color: #151226;
-  --contrast-color: #BF307F;
+  --secondary-color: #CCBFED;
+  --contrast-color: #53239B;
+  font-family: "Montserrat", sans-serif;
 }
 .overlay {
   position: absolute;
@@ -61,6 +62,7 @@ p{
   line-height: 28px;
   transform: translateY(300px);
   animation: slideUp .8s ease-in-out forwards .8s;
+  color:black;
 }
 
 .btns {
@@ -97,6 +99,12 @@ h1 {
     margin-bottom: 20px;
     transform: translateY(100px);
     animation: slideUp .8s ease forwards .5s;
+}
+
+.container_img{
+  width: 400px;
+  position: relative;
+  margin-left:100px;
 }
 
 @keyframes slideIn {
