@@ -16,14 +16,10 @@
   .navbar{
     grid-column: 1 / 3;
     grid-row: 1;
-    width:400px;
+    width:
   }
 
   .grid-item{
-    width: 50%;
-  }
-
-  .flex-container{
     width: fit-content;
   }
 
@@ -53,7 +49,6 @@ img {
     display: flex;
     align-self: center;
     flex-direction: column;
-    width: fit-content;
 }
 
 .outer-container{

@@ -10,58 +10,42 @@
   .grid-container {
     display: grid;
     gap: 10px 10px;
-   
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .navbar{
-    grid-column: 1 / 3;
-    grid-row: 1;
-    width:400px;
-  }
-
-  .grid-item{
-    width: 50%;
-  }
-
-  .flex-container{
-    width: fit-content;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width:600px;
   }
 
 img {
-  width:200px;
-}
-.description{
-
-}
-.icon-home{
-
+  width:300px;
 }
 
 .icon-goal{
-
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .icon-profile{
-  
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .icon-quiz{
-
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .container{
     display: flex;
     align-self: center;
-    flex-direction: column;
-    width: fit-content;
+    flex-direction: row;
+    width:70%;
 }
-
-.outer-container{
-  display: flex;
-  flex-direction: row;
-}
-
-
 
   /* Style the side navigation */
   .sidenav {
