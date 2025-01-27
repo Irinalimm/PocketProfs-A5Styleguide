@@ -49,8 +49,14 @@
 }   
     
 .container_img {
+  position: relative;
+  height: 90%;
   width: 100%;
   animation: slideIn 1.5s ease-in-out forwards;
+}
+
+.OscarImg {
+  height: 100%;
 }
 
 .par {
@@ -118,8 +124,9 @@ h1 {
   position: relative;
   margin-left:100px;
 }
-.container_imag{
+.container_image{
   width: 700px;
+  height: 80%;
 }
 .header_app_name {
   font-size: 500px;
