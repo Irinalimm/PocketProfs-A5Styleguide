@@ -255,8 +255,8 @@ width: 100%;
 }
 
 .background-circles {
-  position: absolute;
-  width: 100%;
+  position: fixed;
+  width: 100vw;
   height: 100%;
   z-index: -999; 
   left:100px;
@@ -270,19 +270,18 @@ width: 100%;
 
 .circle-1 {
   background-color: #8CACF4;
-  width: 500px;
-  height: 250px;
-  margin-top: 200px;
-  margin-left: -65px;
+  width: 594.5px;
+  height: 341.5px;
+  margin-top: 185px;
 }
 
 .circle-2 {
   background-color: #CCE3FB;
-  width: 330px;
+  width: 910.5px;
   height: 250px;
-  margin-top: 240px;
-  margin-left: -100px;
+  margin-top: 185px;
 }
+
 
 
 
