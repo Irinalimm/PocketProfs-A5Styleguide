@@ -10,7 +10,8 @@ body {
 }
 
 .inner-content{
- margin: 5em;
+ margin-left: 5em;
+ margin-right: 5em;
 }
 
 p{
@@ -36,11 +37,11 @@ h3{
 }
 
 .header {
-  margin-left: 200px;
+  margin-top: 15px;
+  margin-left: 150px;
   padding-left: 20px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  padding-top: 10px;
 }
 
 .rationale-container{
